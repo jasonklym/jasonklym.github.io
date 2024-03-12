@@ -7,16 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		html, body {
-			min-height: 100%;
-			min-width: 100%;
 			margin: 0;
 			padding: 0;
 		}
 		html {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
 			background: linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent), linear-gradient(to top right, blue, transparent);
 			background-blend-mode: screen;
 		}
 		body {
+			min-height: 100%;
+			min-width: 100%;
+			overflow: scroll;
 			display: flex;
 			justify-content: center;
 			align-items: center;
